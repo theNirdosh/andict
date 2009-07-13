@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.tdict"
       android:versionCode="1"
-      android:versionName="1.0">
-    <application android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:name=".TDict"
-                  android:label="@string/app_name">
+      android:versionName="1.0" package="com.andict">
+    <application android:label="@string/app_name" android:icon="@drawable/andict">
+        <activity android:label="@string/app_name" android:name=".Andict" android:icon="@drawable/andict">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
