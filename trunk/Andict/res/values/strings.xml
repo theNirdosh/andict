@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="hello">Hello World, Andict!</string>
-    <string name="app_name">Andict</string>
-<string name="path_file_data">/sdcard/Andict/db</string>
-<string name="format_file_data">.db</string>
-<string name="no_database">\n There is no dictionary!\n \n Please copy data file to directory /sdcard/Andict/db, then restart Andict.</string>
-</resources>
