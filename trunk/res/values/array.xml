@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="waitingTimeEntries">
+	<item>0 second</item>
+	<item>1 second</item>
+	<item>2 seconds</item>
+	<item>3 second</item>
+</string-array>
+
+<string-array name="waitingTimeValues">
+	<item>0</item>
+	<item>1</item>
+	<item>2</item>
+	<item>3</item>
+</string-array>
+
+<array name="lstLanguageNames">
+     <item>Arabic</item>
+     <item>Bulgarian</item>
+     <item>Catana</item>
+     <item>Chinese</item>
+     <item>Chinese_simplified</item>
+     <item>Chinese_traditional</item>
+     <item>Croatian</item>
+     <item>Czech</item>
+     <item>Danish</item>
+     <item>Dutch</item>
+     <item>English</item>
+     <item>Filipino</item>
+     <item>Finnish</item>
+     <item>French</item>
+     <item>German</item>
+     <item>Greek</item>
+     <item>Hebrew</item>
+     <item>Hindi</item>
+     <item>Indonesian</item>
+     <item>Italian</item>
+     <item>Japanese</item>
+     <item>Korean</item>
+     <item>Latvian</item>
+     <item>Lithuanian</item>
+     <item>Norwegian</item>
+     <item>Polish</item>
+     <item>Portugese</item>
+     <item>Romanian</item>
+     <item>Russian</item>
+     <item>Serbian</item>
+     <item>Slovak</item>
+     <item>Slovenian</item>
+     <item>Spanish</item>
+     <item>Swedish</item>
+     <item>Ukranian</item>
+     <item>Vietnamese</item>
+</array>
+
+<array name="lstLanguageCodes">
+     <item>ar</item>
+     <item>bg</item>
+     <item>ca</item>
+     <item>zh</item>
+     <item>zh-CN</item>
+     <item>zh-TW</item>
+     <item>hr</item>
+     <item>cs</item>
+     <item>da</item>
+     <item>nl</item>
+     <item>en</item>
+     <item>tl</item>
+     <item>fi</item>
+     <item>fr</item>
+     <item>de</item>
+     <item>el</item>
+     <item>iw</item>
+     <item>hi</item>
+     <item>id</item>
+     <item>it</item>
+     <item>ja</item>
+     <item>ko</item>
+     <item>lv</item>
+     <item>lt</item>
+     <item>no</item>
+     <item>pl</item>
+     <item>pt</item>
+     <item>ro</item>
+     <item>ru</item>
+     <item>sr</item>
+     <item>sk</item>
+     <item>sl</item>
+     <item>es</item>
+     <item>sv</item>
+     <item>uk</item>
+     <item>vi</item>
+</array>
+</resources>

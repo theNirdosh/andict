@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="first_preferencescreen">
+    <CheckBoxPreference
+            android:key="saveHistory"
+            android:title="@string/prefSaveHistory" 
+            android:defaultValue="true"/>
+    <ListPreference
+            android:key="waitingTime"
+            android:title="@string/prefWaitingTime" 
+            android:summary="@string/prefDescWaitingTime"
+            android:entries="@array/waitingTimeEntries"
+            android:entryValues="@array/waitingTimeValues"
+            android:defaultValue="1"
+            android:dialogTitle="Choose waiting time" />
+            
+</PreferenceScreen> 
