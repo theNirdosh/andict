@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android=
+"http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:scrollbars="vertical"
+>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	>
+		<EditText
+			android:id="@+id/edInput"
+			android:layout_width="fill_parent"
+			android:layout_height="150px"
+			android:scrollbars="vertical"
+			android:textColor="#ff0000"
+			android:hint="Source text"
+			android:gravity="top"
+		/>
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+		>
+		<TableRow>
+			<Spinner
+			  android:id="@+id/spnSourceLanguages"
+			  android:layout_width="wrap_content"
+			  android:layout_height="fill_parent"
+			  android:layout_centerVertical="true"
+			/>
+			<Spinner
+			  android:id="@+id/spnDestinationLanguages"
+			  android:layout_width="wrap_content"
+			  android:layout_height="fill_parent"
+			  android:layout_centerVertical="true"
+			/>
+			<ImageButton
+				android:id="@+id/btnChangeDirection"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:textColor="#bb3322"
+				android:src="@drawable/change"
+			/>
+		</TableRow>
+		</TableLayout>
+		<EditText
+			android:id="@+id/edOuput"
+			android:layout_width="fill_parent"
+			android:layout_height="150px"
+			android:scrollbars="vertical"
+			android:textColor="#0000ff"
+			android:hint="Result text"
+			android:gravity="top"
+		/>
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:paddingTop="5px"
+		>
+		<TableRow>
+			<ImageButton
+				android:id="@+id/btnTranslate"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:textColor="#bb3322"
+				android:src="@drawable/google"
+				android:text="Translate"
+				
+			/> 
+			<ImageButton
+				android:id="@+id/btnGoogleClear"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:textColor="#bb3322"
+				android:src="@drawable/clear"
+			/>
+		</TableRow>
+		</TableLayout>
+	
+	</LinearLayout>
+</ScrollView> 

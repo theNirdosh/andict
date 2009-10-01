@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android= "http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="bottom|fill_vertical"
+>
+	<EditText
+		android:id="@+id/edWord"
+		android:layout_width="fill_parent"
+		android:layout_height="53px"
+		android:textSize="20px"
+		android:singleLine="true"
+		android:hint="enter word here"
+	/>
+	<LinearLayout xmlns:android=
+		"http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="vertical"
+		android:layout_weight="1"
+		>
+		<ListView android:id="@+id/lstWord"
+			android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		/>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal"
+	>
+		<ImageButton
+			android:id="@+id/btnPronounce"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:src="@drawable/pronounce"
+			android:layout_weight="0.25"
+		/>
+		<ImageButton
+			android:id="@+id/btnGoogleTranslate"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:src="@drawable/google"
+			android:layout_weight="0.25"
+		/> 
+		<ImageButton
+			android:id="@+id/btnDictionaryManager"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:src="@drawable/dictionary"
+			android:layout_weight="0.25"
+		/> 
+		<ImageButton
+			android:id="@+id/btnInfo"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:src="@drawable/info"
+			android:layout_weight="0.25"
+		/>
+	</LinearLayout>
+</LinearLayout>

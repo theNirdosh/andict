@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+"http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+>
+	<LinearLayout xmlns:android=
+	"http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:gravity="center"
+	>
+		<ImageButton
+			android:id="@+id/btnBackToContent"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:src="@drawable/goback"
+		/> 
+		<LinearLayout xmlns:android=
+		"http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="horizontal"
+		android:layout_weight="1"
+		>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:src="@drawable/clear"
+				android:layout_weight="1"
+				android:text="History"
+				android:textSize="30px"
+				android:gravity="center"
+			/>
+		</LinearLayout> 
+		<ImageButton
+			android:id="@+id/btnClear"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:src="@drawable/clear"
+		/>
+	</LinearLayout>
+	<LinearLayout xmlns:android=
+		"http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="vertical"
+		>
+		<ListView android:id="@+id/lstHistory"
+			android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+		/>
+	</LinearLayout>
+</LinearLayout>
